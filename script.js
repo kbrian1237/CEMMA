@@ -43,18 +43,81 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function setDefaultBlogs() {
-        blogs = [{
-            id: 1,
-            title: 'Welcome to Our Blog',
-            content: 'This is a default blog post that appears when we cannot fetch the latest news.',
-            image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40',
-            author: 'Admin',
-            date: new Date().toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-            })
-        }];
+        blogs = [
+    {
+        id: 1,
+        title: 'Exploring the Wonders of Nature',
+        content: 'Discover the breathtaking beauty of the natural world, from lush forests to majestic mountains. This post delves into the importance of conservation and how we can protect our planet.',
+        image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        author: 'Nature Enthusiast',
+        date: new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        })
+    },
+    {
+        id: 2,
+        title: 'The Future of Technology: AI and Beyond',
+        content: 'Artificial Intelligence is rapidly changing our world. Explore the latest advancements, ethical considerations, and what the future holds for AI and other emerging technologies.',
+        image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        author: 'Tech Guru',
+        date: new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        })
+    },
+    {
+        id: 3,
+        title: 'Mastering the Art of Home Cooking',
+        content: 'Elevate your culinary skills with simple tips and delicious recipes. This guide covers essential techniques and creative ideas for making amazing meals at home.',
+        image: 'https://images.unsplash.com/photo-1504754524776-8f4f699012c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        author: 'Kitchen Whiz',
+        date: new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        })
+    },
+    {
+        id: 4,
+        title: 'The Benefits of Mindfulness and Meditation',
+        content: 'Find peace and reduce stress through mindfulness practices. Learn how meditation can improve your focus, emotional well-being, and overall quality of life.',
+        image: 'https://images.unsplash.com/photo-1599008611396-a51e45323c55?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        author: 'Wellness Coach',
+        date: new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        })
+    },
+    {
+        id: 5,
+        title: 'A Guide to Sustainable Living',
+        content: 'Make a positive impact on the environment with sustainable choices. This post offers practical tips for reducing your carbon footprint and living a more eco-friendly life.',
+        image: 'https://images.unsplash.com/photo-1532905070436-e7813616329?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        author: 'Eco Warrior',
+        date: new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        })
+    },
+    {
+        id: 6,
+        title: 'The Power of Storytelling',
+        content: 'Stories connect us, inspire us, and shape our understanding of the world. Explore the art of storytelling and its impact across cultures and generations.',
+        image: 'https://images.unsplash.com/photo-1516205651411-aef0f49fd74e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        author: 'Narrative Expert',
+        date: new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        })
+    }
+];
+
         displayFeaturedBlogs();
     }
 
