@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
         id: 3,
         title: 'Mastering the Art of Home Cooking',
         content: 'Elevate your culinary skills with simple tips and delicious recipes. This guide covers essential techniques and creative ideas for making amazing meals at home.',
-        image: 'https://images.unsplash.com/photo-1504754524776-8f4f699012c7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        image: 'https://plus.unsplash.com/premium_photo-1680291971376-ccc54aacb22b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         author: 'Kitchen Whiz',
         date: new Date().toLocaleDateString('en-US', {
             year: 'numeric',
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         id: 4,
         title: 'The Benefits of Mindfulness and Meditation',
         content: 'Find peace and reduce stress through mindfulness practices. Learn how meditation can improve your focus, emotional well-being, and overall quality of life.',
-        image: 'https://images.unsplash.com/photo-1599008611396-a51e45323c55?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        image: 'https://images.unsplash.com/reserve/YEc7WB6ASDydBTw6GDlF_antalya-beach-lulu.jpg?q=80&w=1601&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         author: 'Wellness Coach',
         date: new Date().toLocaleDateString('en-US', {
             year: 'numeric',
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', function() {
         id: 5,
         title: 'A Guide to Sustainable Living',
         content: 'Make a positive impact on the environment with sustainable choices. This post offers practical tips for reducing your carbon footprint and living a more eco-friendly life.',
-        image: 'https://images.unsplash.com/photo-1532905070436-e7813616329?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        image: 'https://plus.unsplash.com/premium_photo-1681885191088-a16adb9e9618?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         author: 'Eco Warrior',
         date: new Date().toLocaleDateString('en-US', {
             year: 'numeric',
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
         id: 6,
         title: 'The Power of Storytelling',
         content: 'Stories connect us, inspire us, and shape our understanding of the world. Explore the art of storytelling and its impact across cultures and generations.',
-        image: 'https://images.unsplash.com/photo-1516205651411-aef0f49fd74e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+        image: 'https://images.unsplash.com/photo-1519791883288-dc8bd696e667?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         author: 'Narrative Expert',
         date: new Date().toLocaleDateString('en-US', {
             year: 'numeric',
