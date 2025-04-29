@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEMMA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">
+                <img  src="InShot_20250429_155304431.png" alt="logo">
+            </div>
+            <div class="preloader-icon"></div>
+            <div class="loading-text">Say Something...</div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img class="logoImg" src="InShot_20250429_155913334.png" alt="logo">
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#featured">Featured</a>
+                <a href="#your-blogs">Your Blogs</a>
+                <a href="contact.html">Contact</a>
+                <a href="about.html">about us</a>
+                <button class="btn-primary" id="openEditor">New Post</button>
+            </div>
+            <div class="themes">
+                <label for="themeSelect" class="sr-only">Choose Theme</label>
+                <select class="theme-select" id="themeSelect">
+                    <option value="light">Light <i class="fas fa-sun"></i></option>
+                    <option value="dark">Dark <i class="fas fa-moon"></i></option>
+                    <option value="forest">Nature <i class="fas fa-tree"></i></option>
+                    <option value="sunset">Sunset <i class="fas fa-cloud-sun"></i></option>
+                    <option value="ocean">Aqua <i class="fas fa-water"></i></option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Craft Your Story in <span>Luxury</span></h1>
+                <p class="hero-subtitle">A premium blogging experience with elegant design and seamless editing.</p>
+                <button class="btn-primary btn-hero" id="heroCreateBtn">Start Writing</button>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section class="featured-blogs" id="featured">
+        <div class="container">
+            <h2 class="section-title">Featured <span>Stories</span></h2>
+            <p class="section-subtitle">Discover inspiring content from our community</p>
+
+            <div class="featured-grid" id="featuredGrid">
+                </div>
+        </div>
+    </section>
+
+    <div class="editor-modal" id="editorModal">
+        <div class="editor-container">
+            <div class="editor-header">
+                <h3>Create New Post</h3>
+                <button class="close-editor" id="closeEditor">&times;</button>
+            </div>
+            <div class="editor-body">
+                <div class="form-group">
+                    <input type="text" id="postTitle" placeholder="Your post title..." class="title-input">
+                </div>
+                <div class="form-group">
+                    <textarea id="postContent" placeholder="Write your story here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="postImage" placeholder="Image URL (optional)" class="image-input">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="postAuthor" placeholder="Your name" class="author-input">
+                </div>
+            </div>
+            <div class="editor-footer">
+                <button class="btn-secondary" id="cancelPost">Cancel</button>
+                <button class="btn-primary" id="savePost">Publish</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="your-blogs" id="your-blogs">
+        <div class="container">
+            <h2 class="section-title">Your <span>Stories</span></h2>
+            <p class="section-subtitle">Manage your published content</p>
+
+            <div class="your-blogs-grid" id="yourBlogsGrid">
+                </div>
+        </div>
+    </section>
+
+    <div class="article-modal" id="articleModal">
+        <div class="article-container">
+            <div class="article-modal-header">
+                <h3 id="articleModalTitle"></h3>
+                <button class="close-article-modal" id="closeArticleModal">&times;</button>
+            </div>
+            <div class="article-modal-body">
+                <img src="" alt="Article Image" id="articleModalImage">
+                <div class="article-meta">
+                    <span id="articleModalAuthor"></span> | <span id="articleModalDate"></span>
+                </div>
+                <p id="articleModalContent"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo"><img class="logoImg" src="InShot_20250429_155913334.png" alt="logo"></a>
+                    <p>Elevating storytelling through luxurious design and seamless technology.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#featured">Featured</a>
+                    <a href="#your-blogs">Your Blogs</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <a href="https://x.com/kb45165476" target="_blank" rel="noopener" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/kbrian1237?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://pin.it/6ya0hONH6" target="_blank" rel="noopener" title="Follow us on Pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://www.linkedin.com/in/brian-kathurima-8404082b4/" target="_blank" rel="noopener" title="Connect with us on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/kbrian1237" target="_blank" rel="noopener" title="Check out our GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CEMMA Blog Platform. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="confirmation-modal" id="confirmationModal">
+        <div class="confirmation-content">
+            <h4>Confirm Deletion</h4>
+            <p>Are you sure you want to delete this post? This action cannot be undone.</p>
+            <div class="confirmation-buttons">
+                <button class="btn-secondary" id="cancelDelete">Cancel</button>
+                <button class="btn-danger" id="confirmDelete">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
