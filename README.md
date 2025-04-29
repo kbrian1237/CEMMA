@@ -70,9 +70,9 @@ The `script.js` file contains the core JavaScript logic for the Home page, inclu
 
 ## Deployment
 
-This project was deployed using services like [GitHub Pages](https://pages.github.com/), [Netlify](https://www.netlify.com/), or [Vercel](https://vercel.com/).
+This project was deployed using  [GitHub Pages](https://pages.github.com/)
 
-**Deployment Link:** [INSERT YOUR DEPLOYMENT LINK HERE] 🔗
+**Deployment Link:** [https://kbrian1237.github.io/CEMMA/] 🔗
 
 ## Setup and Installation
 
