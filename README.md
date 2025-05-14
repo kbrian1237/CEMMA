@@ -1,5 +1,5 @@
 # CEMMA Blog Platform ✨
-
+**Deployment Link:** [https://kbrian1237.github.io/CEMMA/] 🔗
 ## Project Overview
 
 CEMMA is a fully functional, responsive blog website developed as a final project to demonstrate core web development skills using HTML, CSS, and JavaScript. The platform provides a space for users to read featured news articles and create and manage their own blog posts. It is structured as a multi-page site including a Home page, a Contact page, and an About Us page.
